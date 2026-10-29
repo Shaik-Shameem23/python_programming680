@@ -1,7 +1,9 @@
-Case Study 2: Progressive Electricity Billing
-1. Problem Statement
+##Case Study 2: Progressive Electricity Billing
+
+##1. Problem Statement
 Develop a Python program to calculate electricity bills based on the units consumed using different billing slabs. The program should add fixed charges, apply a surcharge or rebate, compare monthly bills, and identify unusual increases in electricity bills.
-2. Algorithm
+
+##2. Algorithm
 1. Start the program.
 2. Define a function to calculate the electricity bill.
 3. If units are less than or equal to 100, charge Rs. 2 per unit.
@@ -15,7 +17,8 @@ Develop a Python program to calculate electricity bills based on the units consu
 11. Compare consecutive monthly bills and identify increases above 25%.
 12. Display the bills and comparison results.
 13. Stop.
-3. Flowchart (Mermaid Code)
+
+##3. Flowchart (Mermaid Code)
 
 flowchart TD
     ```A([Start]) --> B[Define calculate_bill function]
@@ -50,7 +53,7 @@ flowchart TD
     W --> Z([Stop])
     X --> Z
     Y --> Z```
-5.Sample input
+##4.Sample input
     Enter number of months: 3
 
 Month 1
@@ -62,7 +65,7 @@ Enter electricity units consumed: 150
 Month 3
 Enter electricity units consumed: 250
 
-6.Sample output
+##5.Sample output
 Month 1
 Electricity Bill: Rs. 160
 
