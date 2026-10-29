@@ -44,4 +44,5 @@ Category = High Bill
 NO
 Category = Normal Bill
 Display patient details, charges, discount, final bill, and category
-STOP```
+STOP
+```
