@@ -26,6 +26,7 @@ Develop a Python program to calculate a patient's hospital bill based on consult
 
 ## 3. Flowchart
 
+```(mermaid)
 START
 Enter patient name, age, and hospital charges
 Calculate total charges
@@ -43,4 +44,4 @@ Category = High Bill
 NO
 Category = Normal Bill
 Display patient details, charges, discount, final bill, and category
-STOP
+STOP```
