@@ -53,6 +53,7 @@ flowchart TD
     W --> Z([Stop])
     X --> Z
     Y --> Z```
+
 ##4.Sample input
     Enter number of months: 3
 
