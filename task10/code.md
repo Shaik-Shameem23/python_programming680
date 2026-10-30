@@ -17,9 +17,9 @@ Develop a Python program to extract product codes, quantities, and amounts from 
 11. Stop the program.
     
 ##3. Flowchart (Mermaid Code)
-
+```(mermaid)
 flowchart TD
-   ``` A([Start]) --> B[/Enter invoice records/]
+    A([Start]) --> B[/Enter invoice records/]
     B --> C[Split records using commas]
     C --> D[Set total amount = 0]
     D --> E[Read next invoice record]
