@@ -23,8 +23,9 @@ Develop a Python program to calculate a patient's hospital bill based on consult
 12. Stop.
 
 ##3.flowchart
-```(mermaid)flowchart TD
-)A([Start]) --> B[/Enter patient name and age/]
+```mermaid
+flowchart TD
+A([Start]) --> B[/Enter patient name and age/]
     B --> C[/Enter consultation, diagnostic and treatment charges/]
     C --> D[Calculate total charges]
     D --> E{Age >= 60?}
