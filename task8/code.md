@@ -1,6 +1,7 @@
 ##Case Study 34: Examination Answer Evaluation
 ##1. Problem Statement
 Develop a Python program to evaluate a student's examination answers by comparing them with a predefined answer key. The program counts correct, wrong, and unanswered questions and calculates the final score by awarding 1 mark for each correct answer and deducting 0.25 marks for each wrong answer.
+
 ##2. Algorithm
 1. Start the program.
 2. Store the correct answers in a list called key.
@@ -13,8 +14,8 @@ Develop a Python program to evaluate a student's examination answers by comparin
 9. Calculate the final score by subtracting 0.25 for each wrong answer from the marks earned for correct answers.
 10. Display the correct answers, wrong answers, unanswered questions, and final score.
 11. Stop the program.
+    
 ##3. Flowchart (Mermaid Code)
-
 flowchart TD
   ``` mermaid A([Start]) --> B[Initialize answer key and counters]
     B --> C[/Enter answer for each question/]
