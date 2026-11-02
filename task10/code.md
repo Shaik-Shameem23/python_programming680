@@ -1,4 +1,3 @@
-##Case Study 32: Text-Based Invoice Data Extraction
 
 ##1. Problem Statement
 Develop a Python program to extract product codes, quantities, and amounts from text-based invoice records. The program separates the records using commas and extracts individual details using hyphens. It validates the record format, displays valid invoice details, and calculates the total invoice amount.
