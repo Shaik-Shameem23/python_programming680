@@ -1,4 +1,3 @@
-##Case Study 2: Progressive Electricity Billing
 
 ##1. Problem Statement
 Develop a Python program to calculate electricity bills based on the units consumed using different billing slabs. The program should add fixed charges, apply a surcharge or rebate, compare monthly bills, and identify unusual increases in electricity bills.
