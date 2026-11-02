@@ -1,6 +1,7 @@
-##Case Study 5: Mobile Plan Cost Comparison
+
 ##1. Problem Statement
 Develop a Python program to compare the monthly costs of three mobile data plans based on the user's data usage in GB. Calculate the cost of each plan, including additional data charges, and display the cheapest plan.
+
 ##2. Algorithm
 1. Start the program.
 2. Input the monthly data usage in GB.
@@ -11,8 +12,9 @@ Develop a Python program to compare the monthly costs of three mobile data plans
 7. Compare the three costs.
 8. Display the cheapest mobile plan.
 9. Stop the program.
+    
 ##3. Flowchart (Mermaid Code)
- 
+ ```mermaid
 flowchart TD
    ``` A([Start]) --> B[/Enter monthly data usage in GB/]
     B --> C{Usage <= 2?}
@@ -35,7 +37,8 @@ flowchart TD
     O -- No --> Q[Display Plan C]
     N --> R([Stop])
     P --> R
-    Q --> R```
+    Q --> R
+```
 
 ##4. Sample Input
 Enter monthly data usage in GB: 6
