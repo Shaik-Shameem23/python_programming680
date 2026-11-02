@@ -1,6 +1,4 @@
 
-# Case Study 3: Hospital Billing and Patient Classification
-
 ## 1. Problem Statement
 
 Develop a Python program to calculate a patient's hospital bill based on consultation charges, diagnostic charges, and treatment charges. The program should accept the patient's name and age, calculate the total charges, provide a 10% discount for senior citizens aged 60 years or above, and calculate the final bill. Finally, classify the patient bill as "High Bill" if the final bill is ₹5,000 or more; otherwise, classify it as "Normal Bill".
@@ -27,6 +25,7 @@ Develop a Python program to calculate a patient's hospital bill based on consult
 ## 3. Flowchart
 
 ```(mermaid)
+flowchat TD
 START
 Enter patient name, age, and hospital charges
 Calculate total charges
