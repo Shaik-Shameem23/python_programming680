@@ -39,7 +39,7 @@ A([Start]) --> B[/Enter patient name and age/]
     J --> L[/Display patient details and final bill/]
     K --> L
     L --> M([Stop])
-    ```
+```
 
 4. Sample Input
 Enter patient name: Ravi
