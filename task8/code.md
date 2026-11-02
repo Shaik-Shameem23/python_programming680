@@ -16,7 +16,7 @@ Develop a Python program to evaluate a student's examination answers by comparin
 ##3. Flowchart (Mermaid Code)
 
 flowchart TD
-  ```  A([Start]) --> B[Initialize answer key and counters]
+  ``` mermaid A([Start]) --> B[Initialize answer key and counters]
     B --> C[/Enter answer for each question/]
     C --> D[Convert answer to uppercase]
     D --> E{Answer is empty?}
@@ -31,6 +31,8 @@ flowchart TD
     J -- No --> K[Calculate final score]
     K --> L[Display examination results]
     L --> M([Stop])```
+
+
 ##4. Sample Input
 In this example, the student answers three questions correctly, one incorrectly, and leaves one unanswered.
 Enter answer for question 1: A
