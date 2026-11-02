@@ -16,7 +16,7 @@ Develop a Python program to compare the monthly costs of three mobile data plans
 ##3. Flowchart (Mermaid Code)
  ```mermaid
 flowchart TD
-   ``` A([Start]) --> B[/Enter monthly data usage in GB/]
+   A([Start]) --> B[/Enter monthly data usage in GB/]
     B --> C{Usage <= 2?}
     C -- Yes --> D[Plan A = 199]
     C -- No --> E[Plan A = 199 + extra GB * 20]
