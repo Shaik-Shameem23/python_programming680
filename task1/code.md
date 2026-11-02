@@ -23,8 +23,8 @@ Develop a Python program to calculate a patient's hospital bill based on consult
 12. Stop.
 
 ##3.flowchart
-flowchart TD
-``` A([Start]) --> B[/Enter patient name and age/]
+```flowchart TD
+    A([Start]) --> B[/Enter patient name and age/]
     B --> C[/Enter consultation, diagnostic and treatment charges/]
     C --> D[Calculate total charges]
     D --> E{Age >= 60?}
@@ -37,8 +37,8 @@ flowchart TD
     I -->|No| K[Category = Normal Bill]
     J --> L[/Display patient details and final bill/]
     K --> L
-    L --> M([Stop])
-```
+    L --> M([Stop])```
+
 4. Sample Input
 Enter patient name: Ravi
 Enter patient age: 65
