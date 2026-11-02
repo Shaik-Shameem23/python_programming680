@@ -19,9 +19,9 @@ Develop a Python program to calculate electricity bills based on the units consu
 13. Stop.
 
 ##3. Flowchart (Mermaid Code)
-
+```mermaid
 flowchart TD
-    ```A([Start]) --> B[Define calculate_bill function]
+    A([Start]) --> B[Define calculate_bill function]
     B --> C[/Enter number of months/]
     C --> D[Initialize bills list]
     D --> E[/Enter units consumed for each month/]
@@ -52,7 +52,8 @@ flowchart TD
     T -- No --> Y[Display decrease or unchanged]
     W --> Z([Stop])
     X --> Z
-    Y --> Z```
+    Y --> Z
+```
 
 ##4.Sample input
     Enter number of months: 3
