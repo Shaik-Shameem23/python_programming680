@@ -1,4 +1,4 @@
-##Case Study 12: Attendance Recovery Computation
+
 ##1. Problem Statement
 The Attendance Recovery Computation program calculates a student's current attendance percentage based on the number of classes attended and the total classes conducted. The minimum attendance requirement is 75%. If the student is not eligible for the examination, the program calculates the minimum number of additional consecutive classes the student must attend to reach 75% attendance.
 
