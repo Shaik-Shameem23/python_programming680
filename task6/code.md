@@ -1,8 +1,8 @@
 
-##1. Problem Statement
+## 1.Problem Statement
 Develop a Python program to validate laboratory chemical inventory records. The program accepts chemical names, storage categories, and quantities. It checks whether the category is valid, whether the quantity is within the permitted limit, and displays a warning if both Acid and Base categories are present.
 
-##2. Algorithm
+## 2. Algorithm
 1. Start the program.
 2. Input the number of chemicals.
 3. Create three lists to store chemical names, categories, and quantities.
@@ -16,7 +16,7 @@ Develop a Python program to validate laboratory chemical inventory records. The 
 11. If both are present, display an incompatibility warning.
 12. Otherwise, display that no incompatible categories were detected.
 13. Stop the program.
-##3. Flowchart (Mermaid Code)
+## 3. Flowchart (Mermaid Code)
 ```mermaid
 flowchart TD
     A([Start]) --> B[/Enter number of chemicals/]
@@ -47,7 +47,8 @@ flowchart TD
 ```
 
 
-##4. Sample Input
+## 4. Sample Input
+```
    Enter number of chemicals:3
    
 Chemical 1
@@ -64,9 +65,10 @@ Chemical 3
 Enter chemical name: Water
 Enter storage category (Acid/Base/Neutral): Neutral
 Enter quantity: 10
+```
 
-
-##5. Sample Output
+## 5. Sample Output
+```
 --- Inventory Validation ---
 
 Chemical: Hydrochloric Acid
@@ -79,7 +81,7 @@ Chemical: Water
 Chemical record is valid
 
 Warning: Acid and Base categories are incompatible.
-
+```
 
 
 
