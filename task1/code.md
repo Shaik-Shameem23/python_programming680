@@ -22,7 +22,7 @@ Develop a Python program to calculate a patient's hospital bill based on consult
 11. Display the patient's name, total charges, discount, final bill, and patient category.
 12. Stop.
 
-## Flowchart
+## 3.Flowchart
 ```mermaid
 flowchart TD
 A([Start]) --> B[/Enter patient name and age/]
@@ -40,14 +40,14 @@ A([Start]) --> B[/Enter patient name and age/]
     K --> L
     L --> M([Stop])
 ```
-## Sample Input
+## 4. Sample Input
 Enter patient name: Ravi
 Enter patient age: 65
 Enter consultation charge: 1000
 Enter diagnostic charge: 2000
 Enter treatment charge: 3000
 
-## Sample Output
+## 5. Sample Output
 Patient Name: Ravi
 Total Charges: 6000.0
 Discount: 600.0
