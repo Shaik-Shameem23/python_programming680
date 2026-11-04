@@ -1,8 +1,8 @@
 
-##1. Problem Statement
+## 1.Problem Statement
 Develop a Python program to extract product codes, quantities, and amounts from text-based invoice records. The program separates the records using commas and extracts individual details using hyphens. It validates the record format, displays valid invoice details, and calculates the total invoice amount.
 
-##2. Algorithm
+## 2.Algorithm
 1. Start the program.
 2. Input invoice records as a single string.
 3. Split the records using commas.
@@ -15,7 +15,7 @@ Develop a Python program to extract product codes, quantities, and amounts from 
 10. Display the total invoice amount.
 11. Stop the program.
     
-##3. Flowchart (Mermaid Code)
+## 3.Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[/Enter invoice records/]
@@ -35,12 +35,13 @@ flowchart TD
     M --> N([Stop])
 ```
 
-
-5. Sample Input
+## 4.Sample Input
+```
 Enter invoice records: P101-2-500,P102-3-750,P103-1-200
+```
 
-
-6. Sample Output
+## 5.Sample Output
+```
 --- Invoice Details ---
 Product Code: P101
 Quantity: 2
@@ -52,5 +53,5 @@ Product Code: P103
 Quantity: 1
 Amount: 200.0
 Total Invoice Amount: 1450.0
-
+```
 
