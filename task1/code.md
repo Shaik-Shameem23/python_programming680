@@ -40,16 +40,26 @@ A([Start]) --> B[/Enter patient name and age/]
     K --> L
     L --> M([Stop])
 ```
-## 4. Sample Input
+
+
+
+## 3. Sample Input
+
+```
 Enter patient name: Ravi
 Enter patient age: 65
 Enter consultation charge: 1000
 Enter diagnostic charge: 2000
 Enter treatment charge: 3000
+```
 
-## 5. Sample Output
+## 4. Sample Output
+
+```
 Patient Name: Ravi
 Total Charges: 6000.0
 Discount: 600.0
 Final Bill: 5400.0
 Patient Category: High Bill
+```
+
