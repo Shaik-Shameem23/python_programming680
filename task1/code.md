@@ -43,7 +43,7 @@ A([Start]) --> B[/Enter patient name and age/]
 
 
 
-## 3. Sample Input
+## 4. Sample Input
 
 ```
 Enter patient name: Ravi
@@ -53,7 +53,7 @@ Enter diagnostic charge: 2000
 Enter treatment charge: 3000
 ```
 
-## 4. Sample Output
+## 5. Sample Output
 
 ```
 Patient Name: Ravi
