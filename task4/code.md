@@ -1,8 +1,8 @@
 
-##1. Problem Statement
+## 1.Problem Statement
 Develop a Python program to calculate the total expenses for a campus event, including venue, equipment, catering, transport, and certificate costs. Subtract the sponsorship amount from the total cost and calculate the minimum number of student registrations required to cover the remaining expenses.
 
-##2. Algorithm
+## 2.Algorithm
 1. Start the program.
 2. Input venue, equipment, catering, transport, and certificate costs.
 3. Input the sponsorship amount and registration fee per student.
@@ -13,7 +13,8 @@ Develop a Python program to calculate the total expenses for a campus event, inc
 8. Display total expenses, sponsorship, remaining cost, registration fee, and minimum registrations.
 9. If the registration fee is zero and expenses remain, display that break-even is not possible.
 10. Stop.
-##3. Flowchart (Mermaid Code)
+    
+## 3.Flowchart
  ```mermaid
 flowchart TD
     A([Start]) --> B[/Enter all event costs/]
@@ -36,7 +37,8 @@ flowchart TD
     O --> P
 ```
 
-##4. Sample Input
+## 4.Sample Input
+```
 Enter venue cost: 10000
 Enter equipment cost: 5000
 Enter catering cost: 15000
@@ -44,12 +46,14 @@ Enter transport cost: 3000
 Enter certificate cost: 2000
 Enter sponsorship amount: 10000
 Enter registration fee per student: 500
+```
 
-
-##5. Sample Output
+## 5.Sample Output
+```
 --- Event Budget ---
 Total Expenses: 35000.0
 Sponsorship: 10000.0
 Remaining Cost: 25000.0
 Registration Fee: 500.0
 Minimum Registrations: 50
+```
