@@ -1,8 +1,8 @@
 
-##1. Problem Statement
+## 1.Problem Statement
 Develop a Python program to validate a student's email address and registration ID. The program checks whether the email contains valid basic formatting with @ and . symbols and whether the registration ID starts with BTECH.
 
-##2. Algorithm
+## 2. Algorithm
 1. Start the program.
 2. Input the student's email address.
 3. Input the student's registration ID.
@@ -13,7 +13,7 @@ Develop a Python program to validate a student's email address and registration 
 8. Display whether the registration ID is valid or invalid.
 9. Stop the program.
     
-##3. Flowchart (Mermaid Code)
+## 3. Flowchart (Mermaid Code)
 ```mermaid
 flowchart TD
     A([Start]) --> B[/Enter student email/]
@@ -32,12 +32,14 @@ flowchart TD
     K --> L
 ```
 
-4. Sample Input
+## 4. Sample Input
+```
 Enter student email: student@gmail.com
 Enter registration ID: BTECH123
+```
 
-
-5. Sample Output
+## 5. Sample Output
+```
 Email is valid
 Registration ID is valid
-
+```
