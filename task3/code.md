@@ -1,8 +1,7 @@
-
-##1. Problem Statement
+## 1.Problem Statement
 Develop a Python program to calculate electricity bills based on the units consumed using different billing slabs. The program should add fixed charges, apply a surcharge or rebate, compare monthly bills, and identify unusual increases in electricity bills.
 
-##2. Algorithm
+## 2.Algorithm
 1. Start the program.
 2. Define a function to calculate the electricity bill.
 3. If units are less than or equal to 100, charge Rs. 2 per unit.
@@ -17,7 +16,7 @@ Develop a Python program to calculate electricity bills based on the units consu
 12. Display the bills and comparison results.
 13. Stop.
 
-##3. Flowchart (Mermaid Code)
+## 3.Flowchart
 ```mermaid
 flowchart TD
     A([Start]) --> B[Define calculate_bill function]
@@ -54,7 +53,8 @@ flowchart TD
     Y --> Z
 ```
 
-##4.Sample input
+## 4.Sample Input
+```
     Enter number of months: 3
 
 Month 1
@@ -65,8 +65,10 @@ Enter electricity units consumed: 150
 
 Month 3
 Enter electricity units consumed: 250
+```
 
-##5.Sample output
+## 5.Sample Output
+```
 Month 1
 Electricity Bill: Rs. 160
 
@@ -84,3 +86,4 @@ Unusual increase detected!
 Month 3 : Rs. 925
 Increase: Rs. 475
 Unusual increase detected!
+```
