@@ -1,8 +1,8 @@
 
-##1. Problem Statement
+## 1. Problem Statement
 Develop a Python program to evaluate a student's examination answers by comparing them with a predefined answer key. The program counts correct, wrong, and unanswered questions and calculates the final score by awarding 1 mark for each correct answer and deducting 0.25 marks for each wrong answer.
 
-##2. Algorithm
+## 2. Algorithm
 1. Start the program.
 2. Store the correct answers in a list called key.
 3. Initialize correct, wrong, and unanswered to zero.
@@ -15,7 +15,7 @@ Develop a Python program to evaluate a student's examination answers by comparin
 10. Display the correct answers, wrong answers, unanswered questions, and final score.
 11. Stop the program.
     
-##3. Flowchart (Mermaid Code)
+## 3. Flowchart (Mermaid Code)
 ```mermaid
 flowchart TD
    A([Start]) --> B[Initialize answer key and counters]
@@ -36,17 +36,20 @@ flowchart TD
 ```
 
 
-##4. Sample Input
+## 4. Sample Input
+```
 In this example, the student answers three questions correctly, one incorrectly, and leaves one unanswered.
 Enter answer for question 1: A
 Enter answer for question 2: B
 Enter answer for question 3: A
 Enter answer for question 4: D
-Enter answer for question 5:
+Enter answer for question 5: A
+```
 
-
-##5. Sample Output
+## 5. Sample Output
+```
 --- Examination Result ---
+```
 Correct Answers: 3
 Wrong Answers: 1
 Unanswered: 1
